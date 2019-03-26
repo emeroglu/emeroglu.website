@@ -85,9 +85,23 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Files\css\main.css" />
     <Content Include="Files\init.js" />
+    <Content Include="Files\js\abstract\Module.js" />
+    <Content Include="Files\js\abstract\View.js" />
+    <Content Include="Files\js\modules\ui.js" />
+    <Content Include="Files\js\services\bcast.js" />
+    <Content Include="Files\js\services\css.js" />
+    <Content Include="Files\js\services\data.js" />
+    <Content Include="Files\js\services\lexicon.js" />
+    <Content Include="Files\js\services\nav.js" />
+    <Content Include="Files\js\services\path.js" />
+    <Content Include="Files\js\services\theme.js" />
+    <Content Include="Files\js\services\view.js" />
     <Content Include="Files\js\tools\fetch.js" />
     <Content Include="Files\js\tools\js.js" />
+    <Content Include="Files\js\ui\AbsoluteLayout.js" />
+    <Content Include="Files\js\ui\RelativeLayout.js" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -106,6 +120,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Files\config.json" />
+    <Content Include="Files\js\config.json" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -114,7 +129,9 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Files\img\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

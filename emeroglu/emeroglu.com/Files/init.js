@@ -82,7 +82,24 @@ $fetch
     .begin()
         .addStylesheet("/File/Style/" + version)
         .addScript("/File/Script/" + version)
-        .onFetch(function () {                                 
+        .onFetch(function () {       
+
+            $global.$css = new $css();
+            $global.$data = new $data();
+            $global.$lexicon = new $lexicon();
+            $global.$nav = new $nav();
+            $global.$path = new $path();
+            $global.$theme = new $theme();
+            $global.$view = new $view();
+
+            new UIModule()
+                .begin()
+                    .onBuild(function () {
+
+
+
+                    })
+                .build();
 
         })
     .start();

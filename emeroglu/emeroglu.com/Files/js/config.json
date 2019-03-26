@@ -1,0 +1,20 @@
+﻿[
+
+  "/Files/js/abstract/Module.js",
+  "/Files/js/abstract/View.js",
+
+  "/Files/js/services/bcast.js",
+  "/Files/js/services/css.js",
+  "/Files/js/services/data.js",
+  "/Files/js/services/lexicon.js",
+  "/Files/js/services/nav.js",
+  "/Files/js/services/path.js",
+  "/Files/js/services/theme.js",
+  "/Files/js/services/view.js",
+
+  "/Files/js/modules/ui.js",
+
+  "/Files/js/ui/AbsoluteLayout.js",
+  "/Files/js/ui/RelativeLayout.js"
+
+]
